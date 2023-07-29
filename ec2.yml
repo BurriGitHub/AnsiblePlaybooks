@@ -7,8 +7,8 @@
     instance_type: t2.micro
     image: "ami-0f9ce67dcf718d332"
     region: us-east-1
-    user_access_key: "AKIAYXA54GIOPDMDAY4H"
-    user_secret_key: "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"
+    user_access_key: "xxxxxxxxxxxxxxx"
+    user_secret_key: "xxxxxxxxxxxxxxxxxxxxxxxx"
 
   tasks:
     - name: startup new instance
