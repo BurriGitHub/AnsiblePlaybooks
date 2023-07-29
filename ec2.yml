@@ -3,12 +3,12 @@
   connection: local
   gather_facts: False
   vars:
-    keypair: ansible
+    keypair: dockerkey
     instance_type: t2.micro
-    image: "ami-04823729c75214919"
+    image: "ami-0f9ce67dcf718d332"
     region: us-east-1
-    user_access_key: "xxxxxxxxxxxxxx"
-    user_secret_key: "xxxxxxxxxxxxxxxx"
+    user_access_key: "AKIAYXA54GIOPDMDAY4H"
+    user_secret_key: "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"
 
   tasks:
     - name: startup new instance
