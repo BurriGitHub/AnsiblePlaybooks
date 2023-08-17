@@ -3,7 +3,9 @@
   tasks:
   - name: Querying for nmap Install
     yum: pkg=nmap state=present
+    
   - name: Querying for telnet Install
     yum: pkg=telnet state=present
+    
   - name: Querying for tree Install
     yum: pkg=tree state=present
