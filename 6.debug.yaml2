@@ -6,4 +6,4 @@
     - shell: cat /home/ec2-user/AnsiblePlaybooks/test.txt
       register: hosts
     - debug: msg="Hosts file is empty"
-    when: hosts.stdout == ""
+      when: hosts.stdout == ""
