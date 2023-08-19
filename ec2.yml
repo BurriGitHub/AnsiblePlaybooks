@@ -3,9 +3,9 @@
   connection: local
   gather_facts: False
   vars:
-    keypair: dockerkey
+    keypair: key
     instance_type: t2.micro
-    image: "ami-0f9ce67dcf718d332"
+    image: "ami-0453898e98046c639"
     region: us-east-1
     user_access_key: "xxxxxxxxxxxxxxx"
     user_secret_key: "xxxxxxxxxxxxxxxxxxxxxxxx"
